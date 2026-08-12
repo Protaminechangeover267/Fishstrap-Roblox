@@ -1,0 +1,47 @@
+{
+    "presets": {
+        "balanced": {
+            "description": "Recommended for most users",
+            "targetFPS": 144,
+            "flags": {
+                "FFlagDebugGraphicsPreferD3D11": true,
+                "DFIntTaskSchedulerTargetFps": 144,
+                "FFlagBufferGeometricShapes": true
+            }
+        },
+        "performance": {
+            "description": "Max FPS on low-end PCs",
+            "targetFPS": 9999,
+            "flags": {
+                "FFlagDebugGraphicsPreferD3D11": true,
+                "DFIntTaskSchedulerTargetFps": 9999,
+                "FFlagBufferGeometricShapes": true,
+                "FFlagDebugDisableTelemetryEphemeralStatistics": true,
+                "FFlagDebugDisableTelemetryPoint": true
+            }
+        },
+        "quality": {
+            "description": "Best visuals on high-end PCs",
+            "targetFPS": 240,
+            "flags": {
+                "FFlagDebugGraphicsPreferD3D11": true,
+                "DFIntTaskSchedulerTargetFps": 240,
+                "FFlagFastGPULightCulling": true,
+                "FFlagImproveTextureQuality": true
+            }
+        },
+        "ultra_performance": {
+            "description": "Absolute maximum FPS",
+            "targetFPS": 9999,
+            "flags": {
+                "FFlagDebugGraphicsPreferD3D11": true,
+                "DFIntTaskSchedulerTargetFps": 9999,
+                "FFlagBufferGeometricShapes": true,
+                "FFlagDebugDisableTelemetryEphemeralStatistics": true,
+                "FFlagDebugDisableTelemetryPoint": true,
+                "FFlagDebugDisableTelemetryV2": true,
+                "FIntRakNetResendBufferArrayLength": 128
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+Fishstrap Fast Flags Guide
+===========================
+
+WHAT ARE FAST FLAGS?
+Fast flags (FFlags) are Roblox internal settings stored in:
+  %LOCALAPPDATA%\Roblox\ClientSettings\ClientAppSettings.json
+
+They control rendering, physics, network, and performance.
+Fishstrap applies optimized flag presets automatically on every launch.
+
+AVAILABLE PRESETS
+
+1. Balanced (Recommended)
+   Target FPS: 144
+   Optimizations: D3D11 renderer, geometric shapes, telemetry disabled
+   Best for: Most users with mid-range hardware
+
+2. Performance
+   Target FPS: Unlimited (9999)
+   Optimizations: All balanced + maximum buffer sizes
+   Best for: Low-end PCs, maximum FPS gain
+
+3. Quality
+   Target FPS: 240
+   Optimizations: GPU light culling, texture quality, camera distance
+   Best for: High-end PCs, best visuals
+
+4. Ultra Performance
+   Target FPS: Unlimited (9999)
+   Optimizations: All performance + network optimization + telemetry off
+   Best for: Competitive gaming, absolute maximum FPS
+
+COMMON FAST FLAGS
+
+DFIntTaskSchedulerTargetFps
+  Controls the target frame rate. Set to 9999 for unlimited FPS.
+  Default: 60. Fishstrap default: 144.
+
+FFlagDebugGraphicsPreferD3D11
+  Forces Direct3D 11 renderer (better than legacy D3D9).
+  Default: false. Fishstrap default: true.
+
+FFlagFastGPULightCulling
+  Enables GPU-based light culling for better lighting performance.
+  Default: false. Fishstrap default: true (Quality preset).
+
+FIntRakNetResendBufferArrayLength
+  Network buffer size for packet retransmission.
+  Default: 32. Fishstrap default: 128 (reduces ping spikes).
+
+DFIntConnectionMTUSize
+  Maximum transmission unit for network packets.
+  Default: 1473. Fishstrap default: 1400 (reduces fragmentation).
+
+FIntCameraMaxZoomDistance
+  Maximum camera zoom distance in studs.
+  Default: 32. Fishstrap default: 128.
+
+FFlagHandleAltEnterFullscreenManually
+  Fixes alt+enter fullscreen toggle behavior.
+  Default: false. Fishstrap default: true.
+
+MULTI INSTANCE
+Fishstrap removes the single-instance mutex, allowing multiple
+Roblox clients to run simultaneously. Each client gets independent
+FPS unlock and fast flags. Enable in Settings > Multi Instance.
+
+DISCORD RICH PRESENCE
+Shows your current game, server size, and play time in Discord.
+Configurable in Settings > Discord RPC.
+
+BLOXSHADE COMPATIBILITY
+Fishstrap shader engine is compatible with Bloxshade shader packs.
+Place .glsl files in the shaders/ directory and select from the
+shader dropdown. Bloxshade packs work without modification.
+
+TROUBLESHOOTING
+If fast flags are not applying:
+1. Delete %LOCALAPPDATA%\Roblox\ClientSettings\
+2. Restart Fishstrap as Administrator
+3. Re-select your preset
+4. Launch Roblox through Fishstrap launcher

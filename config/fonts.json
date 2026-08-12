@@ -1,0 +1,10 @@
+{
+    "fonts": [
+        {"name": "default", "file": "", "description": "Default Roblox font"},
+        {"name": "montserrat", "file": "montserrat.ttf", "description": "Modern sans-serif"},
+        {"name": "inter", "file": "inter.ttf", "description": "Clean readable font"},
+        {"name": "jetbrains", "file": "jetbrains.ttf", "description": "Monospace coding font"},
+        {"name": "comic", "file": "comic.ttf", "description": "Casual comic-style font"},
+        {"name": "arial", "file": "arial.ttf", "description": "Classic Arial"}
+    ]
+}

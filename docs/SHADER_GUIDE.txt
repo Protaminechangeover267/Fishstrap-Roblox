@@ -1,0 +1,57 @@
+Fishstrap - Shader Guide
+=========================
+
+OVERVIEW
+Fishstrap includes a built-in shader engine compatible with Bloxshade
+packs. Shaders are GLSL fragment shaders that post-process the Roblox
+render output. All shaders are applied after FPS unlock.
+
+BUILT-IN PRESETS
+
+Vibrant
+  Saturated colors with boosted contrast. Makes games pop visually.
+  GPU impact: Low.
+
+Cartoon
+  Cel-shading effect with outline detection. Anime-style look.
+  GPU impact: Medium.
+
+Noir
+  Desaturated monochrome with film grain. Moody atmosphere.
+  GPU impact: Low.
+
+Realism
+  Ambient occlusion, color grading, and subtle bloom.
+  GPU impact: High. Recommended for Quality preset only.
+
+Vaporwave
+  Purple/pink color grading with CRT scanline effect.
+  GPU impact: Low.
+
+CUSTOM SHADERS
+Place any .glsl fragment shader in the shaders/ directory.
+Fishstrap will detect it on next launch. Use the
+custom_shader_template.glsl as a starting point.
+
+SHADER API
+Fishstrap shaders receive:
+  uniform sampler2D tex - the Roblox framebuffer
+  uniform float time - elapsed time in seconds
+  uniform vec2 resolution - screen resolution in pixels
+
+Example:
+  void main() {
+      vec2 uv = gl_FragCoord.xy / resolution;
+      vec4 color = texture2D(tex, uv);
+      color.rgb *= 1.2; // brightness boost
+      gl_FragColor = color;
+  }
+
+BLOXSHADE COMPATIBILITY
+Bloxshade .glsl shader packs work without modification.
+Copy the .glsl file to shaders/ and select it in Fishstrap settings.
+
+PERFORMANCE NOTES
+- Shaders add GPU overhead. Disable on low-end hardware.
+- The Performance preset automatically disables shaders.
+- Realism shader requires at least a GTX 1060 or equivalent.

@@ -1,0 +1,77 @@
+Fishstrap - Frequently Asked Questions
+=======================================
+
+GENERAL
+
+Q: What is Fishstrap?
+A: Fishstrap is a free, open-source Roblox bootstrapper that unlocks FPS,
+   applies fast flags, supports shaders and custom fonts, and replaces
+   the default Roblox launcher. It is a Bloxstrap alternative with
+   additional features like multi-instance and Discord Rich Presence.
+
+Q: Is Fishstrap safe?
+A: Yes. Fishstrap is open source on GitHub. It modifies client settings
+   (fast flags) and patches the FPS cap - no code injection into Roblox.
+   The community has used it safely for years. Always download from the
+   official repository.
+
+Q: Fishstrap vs Bloxstrap?
+A: Fishstrap is a Bloxstrap fork with more features: multi-instance,
+   shader presets, custom fonts, Discord RPC, and an FPS counter overlay.
+   Both manage the same fast flags system underneath.
+
+Q: Fishstrap vs Voidstrap?
+A: Voidstrap is minimal - FPS unlock only. Fishstrap includes shaders,
+   fonts, multi-instance, and Discord integration. Choose based on
+   which features you need.
+
+MULTI INSTANCE
+
+Q: How do I run multiple Roblox clients?
+A: Enable Multi Instance in Fishstrap settings. This removes the
+   single-instance lock. Launch Roblox normally - each new window
+   gets its own FPS unlock and flags.
+
+Q: Is multi instance allowed by Roblox?
+A: Roblox does not officially support multi-instance. Fishstrap does
+   not modify game code - it removes the client-side instance mutex.
+   Use responsibly.
+
+FAST FLAGS
+
+Q: What are fast flags?
+A: Internal Roblox settings stored in ClientAppSettings.json that
+   control rendering, physics, and network behavior. Fishstrap applies
+   optimized presets automatically.
+
+Q: Can I add custom fast flags?
+A: Yes. Edit config/fast_flags.json and add any flag. Fishstrap merges
+   your custom flags with the active preset.
+
+SHADERS
+
+Q: How do I install shaders?
+A: Select a shader preset from the dropdown in Fishstrap settings.
+   Or place custom .glsl files in the shaders/ directory.
+
+Q: Are Bloxshade packs compatible?
+A: Yes. Bloxshade .glsl shader packs work without modification.
+
+Q: Do shaders affect performance?
+A: Yes. Shaders add GPU overhead. The Performance preset disables
+   shaders for maximum FPS.
+
+TROUBLESHOOTING
+
+Q: Fishstrap not working after Roblox update?
+A: 1. Run as Administrator
+   2. Delete %LOCALAPPDATA%\Roblox\ClientSettings\
+   3. Restart Fishstrap and re-apply your preset
+   4. Launch Roblox through Fishstrap
+
+Q: FPS counter not showing?
+A: Press F8 to toggle. Check that showFPSCounter is true in settings.
+
+Q: Discord Rich Presence not working?
+A: Ensure Discord is running. Check discordRichPresence in settings.
+   Some Discord plugins may conflict with RPC.

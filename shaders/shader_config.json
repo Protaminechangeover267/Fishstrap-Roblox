@@ -1,0 +1,43 @@
+{
+    "shaders": [
+        {
+            "name": "none",
+            "description": "No shader (default Roblox rendering)",
+            "file": "",
+            "isBuiltIn": true
+        },
+        {
+            "name": "realism",
+            "description": "Enhanced realistic lighting, ACES tone mapping, contrast boost",
+            "file": "shaders/realism.glsl",
+            "isBuiltIn": true
+        },
+        {
+            "name": "cartoon",
+            "description": "Cel-shaded anime effect with edge detection",
+            "file": "shaders/cartoon.glsl",
+            "isBuiltIn": true
+        },
+        {
+            "name": "vibrant",
+            "description": "Boosted color saturation and vibrance",
+            "file": "shaders/vibrant.glsl",
+            "isBuiltIn": true
+        },
+        {
+            "name": "noir",
+            "description": "Black and white film noir with grain and vignette",
+            "file": "shaders/noir.glsl",
+            "isBuiltIn": true
+        },
+        {
+            "name": "vaporwave",
+            "description": "80s/90s aesthetic with pink/cyan colors and scanlines",
+            "file": "shaders/vaporwave.glsl",
+            "isBuiltIn": true
+        }
+    ],
+    "custom_shaders_directory": "shaders/",
+    "shader_extension": ".glsl",
+    "function_name": "custom_pass"
+}

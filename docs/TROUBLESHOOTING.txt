@@ -1,0 +1,49 @@
+Fishstrap - Troubleshooting
+============================
+
+FPS UNLOCK NOT WORKING
+1. Run Fishstrap as Administrator.
+2. Delete %LOCALAPPDATA%\Roblox\ClientSettings\ folder.
+3. Restart Fishstrap and select your preset.
+4. Launch Roblox through the Fishstrap launcher.
+5. Verify FPS with the built-in counter (F8).
+
+ROBLOX UPDATE BROKE FISHSTRAP
+Roblox updates can change internal offsets.
+1. Wait for a Fishstrap update (usually within hours).
+2. Check the Discord community for status updates.
+3. Try deleting ClientSettings and re-applying fast flags.
+
+MULTI INSTANCE NOT WORKING
+1. Verify Multi Instance is enabled in settings.
+2. Close ALL Roblox processes before launching.
+3. Microsoft Store version may have restrictions - try the web version.
+4. Run Fishstrap as Administrator.
+
+SHADERS NOT APPLYING
+1. Verify the shader is selected in Settings.
+2. Check that the .glsl file is in the shaders/ directory.
+3. Ensure your GPU supports OpenGL 3.3+.
+4. Try a different shader preset to isolate the issue.
+
+DISCORD RPC NOT SHOWING
+1. Ensure Discord is running.
+2. Check discordRichPresence is true in settings.
+3. Some BetterDiscord/Vencord plugins may conflict.
+4. Restart Discord after enabling.
+
+ANTIVIRUS FLAGGING FISHSTRAP
+Fishstrap modifies client settings files - this can trigger heuristic
+detection. Add Fishstrap to your antivirus exclusions.
+Verify the file hash on VirusTotal before running.
+
+CRASH ON LAUNCH
+1. Check Windows Event Viewer for error details.
+2. Update GPU drivers to the latest version.
+3. Try the Performance preset (disables shaders).
+4. Run in compatibility mode for Windows 10 if on Windows 11.
+
+SLOW STARTUP
+1. Disable auto-update check temporarily.
+2. The first launch after an update may be slower due to re-scanning.
+3. Subsequent launches should be under 1 second.

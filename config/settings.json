@@ -1,0 +1,17 @@
+{
+    "targetFPS": 144,
+    "shader": "none",
+    "multiInstance": false,
+    "font": "default",
+    "autoStart": true,
+    "preset": "balanced",
+    "showFPSCounter": true,
+    "fpsCounterHotkey": "VK_F8",
+    "toggleUIHotkey": "VK_F9",
+    "discordRichPresence": true,
+    "autoUpdate": true,
+    "bloxshadeCompat": true,
+    "customEscapeMenu": false,
+    "oldDeathSound": false,
+    "launchOnStartup": false
+}

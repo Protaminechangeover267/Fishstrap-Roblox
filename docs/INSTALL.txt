@@ -1,0 +1,60 @@
+Fishstrap - Installation Guide
+===============================
+
+SYSTEM REQUIREMENTS
+- Windows 10 / 11 (64-bit)
+- macOS via Wine or CrossOver
+- Roblox installed (Microsoft Store or web version)
+- 144Hz+ monitor recommended for FPS unlock benefit
+
+QUICK INSTALL
+1. Download Fishstrap.zip from the Releases page.
+2. Extract to any folder.
+3. Run Fishstrap.exe as Administrator.
+4. Set your target FPS (144, 240, 360, or Unlimited).
+5. Select a fast flags preset (Balanced recommended).
+6. Click Launch Roblox - Fishstrap handles the rest.
+
+FIRST LAUNCH
+1. Fishstrap detects your Roblox installation automatically.
+2. Select your preferred FPS target.
+3. Choose a fast flags preset:
+   - Balanced: good performance, good visuals
+   - Performance: maximum FPS
+   - Quality: best visuals
+   - Ultra Performance: absolute maximum FPS
+4. Enable Multi Instance if needed.
+5. Enable Discord Rich Presence if desired.
+6. Click Launch Roblox.
+
+SHADER SETUP
+1. Open Fishstrap Settings.
+2. Select a shader from the dropdown (Vibrant, Cartoon, Noir, etc.).
+3. Or place a custom .glsl file in the shaders/ folder.
+4. Shaders apply on next Roblox launch.
+
+CUSTOM FONT SETUP
+1. Place a .ttf font file in the fonts/ directory.
+2. Select it in Fishstrap Settings > Custom Font.
+3. Font applies to in-game text on next launch.
+
+MULTI INSTANCE SETUP
+1. Enable Multi Instance in Settings.
+2. Launch Roblox - each new window is independent.
+3. Each instance gets its own FPS unlock.
+
+DISCORD RICH PRESENCE
+1. Ensure Discord is running.
+2. Enable Discord RPC in Fishstrap settings.
+3. Your Roblox game status appears in Discord automatically.
+
+UPDATING
+Fishstrap auto-updates on launch. To manually update:
+1. Download the latest release.
+2. Extract over your existing Fishstrap folder.
+3. Settings and presets are preserved.
+
+UNINSTALL
+1. Delete the Fishstrap folder.
+2. Delete %LOCALAPPDATA%\Roblox\ClientSettings\ to remove fast flags.
+3. Roblox will regenerate default settings on next launch.

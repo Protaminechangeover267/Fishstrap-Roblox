@@ -1,0 +1,17 @@
+{
+    "DFIntTaskSchedulerTargetFps": 144,
+    "FFlagDebugGraphicsPreferD3D11": true,
+    "FFlagBufferGeometricShapes": true,
+    "FFlagFastGPULightCulling": true,
+    "FFlagDebugDisableTelemetryEphemeralStatistics": true,
+    "FFlagDebugDisableTelemetryPoint": true,
+    "FFlagDebugDisableTelemetryV2": true,
+    "FFlagDebugDisableTelemetryV2Counter": true,
+    "FIntRakNetResendBufferArrayLength": 128,
+    "DFIntConnectionMTUSize": 1400,
+    "FFlagDebugGraphicsPreferVulkan": false,
+    "FFlagGraphicsEnableD3D10Compute": true,
+    "FIntCameraMaxZoomDistance": 128,
+    "DFIntMaxFrameBufferSize": 16777216,
+    "FFlagHandleAltEnterFullscreenManually": true
+}
