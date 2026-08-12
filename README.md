@@ -5,7 +5,7 @@
 As a **bloxstrap** alternative, Fishstrap has emerged alongside **voidstrap** as one of the top bootstrappers in the Roblox modding community. The app ships with **bloxstrap fast flags** presets, **bloxstrap multi instance** support, **roblox shaders** with **bloxshade** compatibility, and custom **roblox font** loading. The **fflags** editor gives full control over every client setting. No registration, no premium tier.
 
 
-<img width="919" height="919" alt="images1" src="https://github.com/user-attachments/assets/9ef0e97e-8b57-4309-a792-02b1b971f767" />
+<img width="119" height="119" alt="images1" src="https://github.com/user-attachments/assets/9ef0e97e-8b57-4309-a792-02b1b971f767" />
 
 
 
